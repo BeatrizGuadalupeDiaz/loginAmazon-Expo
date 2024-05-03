@@ -1,11 +1,16 @@
 export const strings = {
     login: {
-        title:"iniciar sesion",
-        titleEmail: "Direccion de e-mail o numero de telefono movil",
+        title:"iniciar sesión",
+        titleEmail: "Dirección de e-mail o número de telefono móvil",
         titlePassword: "Contraseña",
         forgetPassword: "¿Has olvidado la contraseña?",
-        informationAceptConditions: "Al identificarte aceptas los terminos y condiciones",
+        information: "Al identificarte aceptas nuestras",
+        conditionstoUse: "Condiciones de uso y venta.",
+        privacy: "Aviso de Privacidad",
+        cookies: "Aviso de Cookies",
+        publicity:"Aviso sobre publicidad basada en los intereses del usuario.",
         check_rememberme: "Recuerdame",
+        details:"Detalles",
         areYouNew: "¿Eres nuevo en Amazon?",
         btn:{
             btn_Login: "Iniciar Sesion",
