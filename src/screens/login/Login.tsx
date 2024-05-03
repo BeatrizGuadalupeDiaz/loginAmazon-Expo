@@ -1,4 +1,4 @@
-import { View, Text, Image, TextInput, TouchableOpacity } from "react-native";
+import { View, Text, Image, TextInput, TouchableOpacity, ScrollView } from "react-native";
 import React from "react";
 import Checkbox from "expo-checkbox";
 
@@ -8,7 +8,7 @@ import { styles } from "./styles";
 export default function Login() {
   const [isChecked, setChecked] = React.useState(false);
   return (
-    <View style={styles.containt}>
+    <ScrollView style={styles.containt}>
       <Image
         style={styles.img}
         source={{
@@ -76,6 +76,6 @@ export default function Login() {
           {strings.login.btn.btn_CreateAccount}
         </Text>
       </TouchableOpacity>
-    </View>
+    </ScrollView>
   );
 }

@@ -26,7 +26,9 @@ export const styles = StyleSheet.create({
         borderWidth:1,
         padding: 5,
         width: "auto",
-        marginBottom: 10
+        marginBottom: 10,
+        marginTop:3,
+        borderRadius:5
     },
     forgetPassword:{
         color: colors.blueLigthAmazon
@@ -80,6 +82,7 @@ export const styles = StyleSheet.create({
         color: colors.blackAmazon,
         borderWidth:1,
         marginVertical:15,
+        marginBottom:30,
         justifyContent: "center",
         alignItems: "center",
         borderRadius: 5
